@@ -1,0 +1,41 @@
+.converter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  &__select {
+    font-size: large;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+
+  &__input {
+    font-size: large;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  &__button {
+    font-size: xx-large;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 4px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  &__sum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: xx-large;
+  }
+}
