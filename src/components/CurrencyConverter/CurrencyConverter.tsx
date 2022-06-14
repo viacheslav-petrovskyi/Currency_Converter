@@ -127,7 +127,7 @@ export const CurrencyConverter: React.FC<Props> = ({
             setShowCurrency2(showCurrency1);
           }}
         >
-          🔁
+          &#8646;
         </button>
         <select
           className="converter__select"
